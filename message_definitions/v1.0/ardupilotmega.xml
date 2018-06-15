@@ -1502,6 +1502,19 @@
       <field type="float" name="rpm1">RPM Sensor1.</field>
       <field type="float" name="rpm2">RPM Sensor2.</field>
     </message>
+
+    <!-- VPY DRA Sensor-->
+    <message id="240" name="DRA_SENSOR">
+      <description>DRA Sensor</description>
+      <field type="int16_t" name="dra_val">DRA Sensor value (VPY)</field>
+    </message>
+
+    <!-- VPY Test Sensor-->
+    <message id="239" name="VPY_TEST">
+      <description>VPY Test</description>
+      <field type="int16_t" name="vpy_test">VPY Test</field>
+    </message>
+
     <!-- ardupilot specific mavlink2 messages starting at 11000-->
     <message id="11000" name="DEVICE_OP_READ">
       <description>Read registers for a device.</description>
