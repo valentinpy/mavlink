@@ -1521,8 +1521,8 @@
       <description>DRA Status</description>
       <field type="uint32_t" name="serial_number">DRA Drone Serial Number</field>
       <field type="uint32_t" name="immatriculation">DRA Drone Immatriculation</field>
-      <field type="uint8_t" name="battery_voltage">DRA Battery voltage</field>
-      <field type="uint8_t[4]" name="battery_cell_voltage">DRA Battery cells voltage (4x)</field>
+      <!-- <field type="uint8_t" name="battery_voltage">DRA Battery voltage</field>
+      <field type="uint8_t[4]" name="battery_cell_voltage">DRA Battery cells voltage (4x)</field> -->
     </message>
 
     <!-- VPY DRA Real time infos-->
