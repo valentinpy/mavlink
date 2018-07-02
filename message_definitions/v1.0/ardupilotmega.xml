@@ -1528,7 +1528,7 @@
     <!-- VPY DRA Real time infos-->
     <message id="240" name="DRA_RT_INFOS">
       <description>VPY DRA Real time informations (DAS sensor, maker released,...)</description>
-      <field type="int16_t" name="dra_val">DRA DAS Avalanche Sensor Value from K64</field>
+      <field type="int32_t" name="dra_val">DRA DAS Avalanche Sensor Value from K64</field>
       <field type="int8_t" name="marked">Indicate when a marker has been released (boolean)</field>
     </message>
 
